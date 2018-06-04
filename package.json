@@ -1,0 +1,31 @@
+{
+  "name": "cleanup-lambda-versions",
+  "version": "1.0.0",
+  "description": "Removes outdated lambda versions to prevent Code Storage Limit Exceeded error",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/davidmenger/cleanup-lambda-versions.git"
+  },
+  "keywords": [
+    "aws",
+    "lambda",
+    "cleanup",
+    "clean",
+    "error",
+    "limit",
+    "exceeded"
+  ],
+  "author": "David Menger",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/davidmenger/cleanup-lambda-versions/issues"
+  },
+  "homepage": "https://github.com/davidmenger/cleanup-lambda-versions#readme",
+  "dependencies": {
+    "aws-sdk": "^2.250.1"
+  }
+}
